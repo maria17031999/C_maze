@@ -1,0 +1,15 @@
+
+Archivo: "leeme.txt" del guión de prácticas "Laberintos" de fundamentos de programación.
+----------------------------------------------------------------------------------------
+
+Esta carpeta contiene los archivos auxiliares para facilitar la práctica sobre laberintos. Las subcarpetas son:
+
+- ejemplos: En esta carpeta aparecen algunos ejemplos de archivos que contienen:
+  - habitaciones: listas de vecinos de habitaciones. Consecuencia de una configuración de filas, columnas, vecinos.
+  - paredes: archivos que configuran un laberinto como una lista de tripletas de paredes. Realmente, son laberintos.
+  - laberintos: archivos de paredes (txt) junto con pdfs que muestran el dibujo correspondiente.
+  - gigantes: puede ignorar, en principio, estos ejemplos. Sólo muestran cómo los programas pueden trabajar con grandes laberintos.
+  
+- programas: Contiene un programa para uso en línea. Permite dibujar un laberinto (opc. una solución). Permite comprobar resultados. Si optiene un fichero de paredes (con posible solución) puede usarlo para dibujar un archivo svg. Este archivo se puede mostrar, por ejemplo, con el navegador firefox.
+
+- src: Un archivo de cabecera fuente que resuelve el problema de tener clases de equivalencia para generar laberintos. Es un archivo terminado para tener un módulo resuelto que usar en los problemas propuestos (ver guión).
